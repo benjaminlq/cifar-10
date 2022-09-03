@@ -11,8 +11,8 @@
 ## Problem Statement
 - Multi-class Classification Problem
 - Image Classification
-- Dataset: CIFAR-10 (50000 train images, 10000 test images)
-
+- Dataset: CIFAR-10 (50000 train images, 10000 test images) <br>
+![image](https://user-images.githubusercontent.com/99384454/188257303-e909c7c8-f48b-4138-b775-3c1ad74131bb.png)
 
 ## Pre-Processing
 ### Normalize Data
@@ -37,9 +37,17 @@ for a in range(len(test_images)):
 
 ## Training
 ### 1. Model Architecture
+The model is trained by finetuning on Resnet-50 pretrained model after changing the top layer to `Dense(10, activation='softmax')` to solve the 10-label classification problem. The image is resized to 224 x 224 to fit Resnet input dimension.
+
 
 ### 2. Train
+![image](https://user-images.githubusercontent.com/99384454/188257083-3a331ebb-3044-44bf-8811-6fcbd439dbf8.png) <br>
+Highest Validation Accuracy achieved after **10 epochs**.
 
 ## Result
+Accuracy using Resnet-50 Transfer Learning on Cifar-10 dataset is **87.0%**.
+
+![image](https://user-images.githubusercontent.com/99384454/188257218-929fe6e3-314a-4fa9-9ac5-835b4a702cde.png)
+
 
 
