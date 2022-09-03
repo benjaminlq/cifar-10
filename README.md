@@ -1,5 +1,10 @@
 # Computer Vision using CNN and Transfer Learning on CIFAR-10 dataset
 
+![](https://img.shields.io/badge/Status-Completed-green)
+![](https://img.shields.io/badge/Domain-Computer%20Vision-blue)
+![](https://img.shields.io/badge/Language-Python-lightgreen)
+![](https://img.shields.io/badge/Package-TensorFlow-orange)
+
 ## TABLE OF CONTENTS
   - [Problem Statement](#problem-statement)
   - [Pre-Processing](#pre-processing)
