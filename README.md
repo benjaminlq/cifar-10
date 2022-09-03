@@ -12,7 +12,8 @@
 - Multi-class Classification Problem
 - Image Classification
 - Dataset: CIFAR-10 (50000 train images, 10000 test images) <br>
-![image](https://user-images.githubusercontent.com/99384454/188257303-e909c7c8-f48b-4138-b775-3c1ad74131bb.png)
+
+<img src="https://user-images.githubusercontent.com/99384454/188257303-e909c7c8-f48b-4138-b775-3c1ad74131bb.png" width="600>
 
 ## Pre-Processing
 ### Normalize Data
