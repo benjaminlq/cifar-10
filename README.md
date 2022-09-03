@@ -43,7 +43,7 @@ for a in range(len(test_images)):
 
 ## Training
 ### 1. Model Architecture
-The model is trained by finetuning on Resnet-50 pretrained model after changing the top layer to `Dense(10, activation='softmax')` to solve the 10-label classification problem. The image is resized to 224 x 224 to fit Resnet input dimension.
+The model is trained by finetuning on Resnet-50 pretrained model after changing the top layer to `Dense(10, activation='softmax')` to solve the 10-label classification problem. The image is resized to 224 x 224 to fit Resnet input dimension. <br><br>
 ![image](https://user-images.githubusercontent.com/99384454/188257650-2da42d56-0f4b-4369-8c1a-ccaf4ce28a53.png)
 
 ### 2. Train
